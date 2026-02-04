@@ -1,0 +1,151 @@
+{
+  "user": [
+  ],
+  "goods": [
+    {
+      "id": "100001",
+      "name": "保暖加绒包头毛毛拖",
+      "price": 24,
+      "text": "采用加绒内里设计，触感柔软细腻，包头保暖不露脚，冬季居家穿着舒适防滑，行走稳当不易冷脚",
+      "category": "鞋子",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E9%9E%8B%E5%AD%90/%E6%AF%9B%E6%8B%96%E9%9E%8B%E5%A5%B3.png"
+    },
+    {
+      "id": "100002",
+      "name": "日本进口无涂层铁锅",
+      "price": 188,
+      "text": "日本进口铁材打造，无化学涂层，导热均匀耐高温，适合多种烹饪方式，越用越顺手。",
+      "category": "厨房用具",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E5%8E%A8%E6%88%BF%E7%94%A8%E5%85%B7/%E6%97%A5%E6%9C%AC%E9%94%85.png"
+    },
+    {
+      "id": "100003",
+      "name": "纯棉亲肤速干洗脸毛巾",
+      "price": 25,
+      "text": "选用高品质纯棉材质，亲肤柔软不刺激，吸水性强且干得快，适合日常洗脸洁面反复使用。",
+      "category": "日用",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E6%97%A5%E7%94%A8/%E6%AF%9B%E5%B7%BE.png"
+    },
+    {
+      "id": "100004",
+      "name": "软毛护龈成人牙刷",
+      "price": 22,
+      "text": "刷毛细软富有弹性，有效清洁牙缝同时呵护牙龈，减少出血不适感，适合长期日常口腔护理使用",
+      "category": "日用",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E6%97%A5%E7%94%A8/%E7%89%99%E5%88%B7.png"
+    },
+    {
+      "id": "100005",
+      "name": "儿童早教可伸缩指读棒",
+      "price": 13,
+      "text": "专为儿童设计的早教指读工具，可伸缩调节长度，帮助孩子专注阅读，培养良好学习与阅读习惯。",
+      "category": "日用",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E6%97%A5%E7%94%A8/%E6%8C%87%E8%AF%BB%E6%A3%92.png"
+    },
+    {
+      "id": "100006",
+      "name": "不锈钢清洁钢丝球",
+      "price": 8,
+      "text": "采用优质不锈钢丝紧密缠绕，清洁力强不易掉丝，适合清洗锅具顽固污渍，耐用不易生锈。",
+      "category": "厨房用具",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E5%8E%A8%E6%88%BF%E7%94%A8%E5%85%B7/%E9%92%A2%E4%B8%9D%E7%90%83.png"
+    },
+    {
+      "id": "100007",
+      "name": "羊绒保暖护膝防寒护腿",
+      "price": 66,
+      "text": "甄选羊绒混纺面料，柔软亲肤保暖性佳，贴合腿部不臃肿，适合秋冬防寒保暖与关节防护。",
+      "category": "女装",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E5%A5%B3%E8%A3%85/%E6%8A%A4%E8%86%9D.png"
+    },
+    {
+      "id": "100008",
+      "name": "保湿修护舒缓护肤霜",
+      "price": 99,
+      "text": "质地细腻易吸收，深入补水锁水，帮助修护干燥肌肤，缓解紧绷不适，适合日常全身护理使用。",
+      "category": "护肤",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E6%8A%A4%E8%82%A4/%E6%8A%A4%E8%82%A4%E9%9C%9C.png"
+    },
+    {
+      "id": "100009",
+      "name": "超实用快充线",
+      "price": 29,
+      "text": "支持多种设备快充需求，线材加粗耐弯折，传输稳定不发热，日常使用耐用省心不易损坏。",
+      "category": "数码产品",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E6%95%B0%E7%A0%81%E4%BA%A7%E5%93%81/%E5%BF%AB%E5%85%85%E7%BA%BF.png"
+    },
+    {
+      "id": "100010",
+      "name": "当季爆甜砂糖橘",
+      "price": 20,
+      "text": "精选当季新鲜砂糖橘，果皮薄易剥，果肉细嫩多汁，入口清甜少酸，适合家庭日常水果食用。",
+      "category": "水果",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E6%B0%B4%E6%9E%9C/%E7%A0%82%E7%B3%96%E6%A9%98.png"
+    },
+    {
+      "id": "100011",
+      "name": "新型高亮省电LED灯泡",
+      "price": 11,
+      "text": "采用新型LED光源，亮度高且能耗低，发光稳定不频闪，使用寿命长，适合多种家庭照明场景。",
+      "category": "家用电器",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E7%94%B5%E5%99%A8/%E7%81%AF%E6%B3%A1.png"
+    },
+    {
+      "id": "100012",
+      "name": "加厚吸水一次性擦脚布",
+      "price": 23,
+      "text": "加厚无纺布材质，吸水力强不易破，使用后即丢更卫生，适合浴室、旅行或公共场所使用。",
+      "category": "日用",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E6%97%A5%E7%94%A8/%E6%93%A6%E8%84%9A%E5%B8%83.png"
+    },
+    {
+      "id": "100013",
+      "name": "美式复古字母印花 T 恤",
+      "price": 99,
+      "text": "宽松落肩版型适配多种身材，重磅面料挺括有型，简约印花增添街头潮流感。",
+      "category": "男装",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E7%94%B7%E8%A3%85/Snipaste_2026-02-04_10-30-13.png"
+    },
+    {
+      "id": "100014",
+      "name": "苹果iPhone17ProMax",
+      "price": 12999,
+      "text": "搭载 A19Pro 芯片，配备超视网膜 XDR 显示屏，影像能力与性能全面升级，带来流畅使用体验。",
+      "category": "手机",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E6%89%8B%E6%9C%BA/Snipaste_2026-02-04_10-30-43.png"
+    },
+    {
+      "id": "100015",
+      "name": "厚切乳酪夹心方砖",
+      "price": 24,
+      "text": "3cm 厚乳酪夹心绵密醇厚，搭配酥松饼干，一口咬下双重口感超满足。",
+      "category": "食品",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E9%A3%9F%E5%93%81/Snipaste_2026-02-04_10-31-20.png"
+    },
+    {
+      "id": "100016",
+      "name": "云屿感弧形云朵沙发",
+      "price": 499,
+      "text": "软糯触感如云包裹，奶油色调温柔治愈，慵懒氛围感拉满。温柔奶油色调治愈身心，营造满满慵懒松弛氛围感",
+      "category": "家具",
+      "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E5%AE%B6%E5%B1%85/Snipaste_2026-02-04_10-31-59.png"
+    }
+  ],
+  "order": [
+  ],
+  "cart": [
+  ],
+  "historySearch": [
+  ],
+  "swiperImages": [
+    {
+      "id": "01",
+      "imageUrl": [
+        "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E8%BD%AE%E6%92%AD%E5%9B%BE/%E8%BD%AE%E6%92%AD%E5%9B%BE1.png",
+        "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E8%BD%AE%E6%92%AD%E5%9B%BE/%E8%BD%AE%E6%92%AD%E5%9B%BE2.png",
+        "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E8%BD%AE%E6%92%AD%E5%9B%BE/%E8%BD%AE%E6%92%AD%E5%9B%BE3.png",
+        "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E8%BD%AE%E6%92%AD%E5%9B%BE/%E8%BD%AE%E6%92%AD%E5%9B%BE4.png"
+      ]
+    }
+  ]
+}
