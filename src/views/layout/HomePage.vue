@@ -2,7 +2,7 @@
 // 当该页面DOM被销毁时，回到该页面会执行同步代码。当页面DOM被缓存不需要重新加载时，不会执行
 // 当整个页面被关闭或刷新时，pinia会重新执行
 
-import { inject, onMounted, ref } from 'vue'
+import { inject, ref } from 'vue'
 import { useRouter } from 'vue-router'
 const router = useRouter()
 
@@ -20,7 +20,7 @@ import { swiperGetService } from '@/api/swiper'
 // 轮播图存储数组
 const sweiperImg = ref([])
 // 获取轮播图数据
-onMounted(async () => {
+onActivated(async () => {
   const { data } = await swiperGetService()
   sweiperImg.value = data[0].imageUrl
 })
@@ -37,7 +37,7 @@ const categoryClick = (e) => {
 import { goodsGetService } from '@/api/goods'
 const allGoodsList = ref([])
 // 取出loadingNum条作为渲染数据
-onMounted(async () => {
+onActivated(async () => {
   const { data } = await goodsGetService()
   allGoodsList.value = data
   GoodsListPush(goodsIndex, goodsIndex + loadingNum)
@@ -146,27 +146,40 @@ const goodsLoadingFn = () => {
       duration="4000"
       mainWidth="94.66vw"
       mainHeight="53.33vw"
-    ></ProSwiper>
+    >
+    </ProSwiper>
 
     <!-- 分类模块 -->
     <ul class="category">
       <li class="category-box">
-        <div class="txt"><h1 @click="categoryClick($event)">日用</h1></div>
+        <div class="txt">
+          <h1 @click="categoryClick($event)">日用</h1>
+        </div>
       </li>
       <li class="category-box">
-        <div class="txt"><h1 @click="categoryClick($event)">护肤</h1></div>
+        <div class="txt">
+          <h1 @click="categoryClick($event)">护肤</h1>
+        </div>
       </li>
       <li class="category-box">
-        <div class="txt"><h1 @click="categoryClick($event)">男装</h1></div>
+        <div class="txt">
+          <h1 @click="categoryClick($event)">男装</h1>
+        </div>
       </li>
       <li class="category-box">
-        <div class="txt"><h1 @click="categoryClick($event)">女装</h1></div>
+        <div class="txt">
+          <h1 @click="categoryClick($event)">女装</h1>
+        </div>
       </li>
       <li class="long-category-box">
-        <div class="txt"><h1 @click="categoryClick($event)">数码产品</h1></div>
+        <div class="txt">
+          <h1 @click="categoryClick($event)">数码产品</h1>
+        </div>
       </li>
       <li class="long-category-box">
-        <div class="txt"><h1 @click="categoryClick($event)">家用电器</h1></div>
+        <div class="txt">
+          <h1 @click="categoryClick($event)">家用电器</h1>
+        </div>
       </li>
     </ul>
 
@@ -211,6 +224,7 @@ const goodsLoadingFn = () => {
   .proSwiper {
     margin: 10px;
   }
+
   .ProSwiperSkeleton {
     margin: 10px;
     width: 355px;
@@ -218,6 +232,7 @@ const goodsLoadingFn = () => {
     background-color: rgba(226, 226, 226, 0.7);
     border-radius: 10px;
     overflow: hidden;
+
     .skeletonSpaceOne {
       position: relative;
       border-radius: 10px;
@@ -231,6 +246,7 @@ const goodsLoadingFn = () => {
       );
       animation: swiperSkeleton 10s infinite;
     }
+
     .skeletonSpaceTwo {
       border-radius: 10px;
       margin: 20px 0 0 120px;
@@ -251,6 +267,7 @@ const goodsLoadingFn = () => {
     margin: 12px 10px;
     width: 352px;
     height: 112px;
+
     .category-box {
       margin-right: 10px;
       height: 50px;
@@ -259,15 +276,18 @@ const goodsLoadingFn = () => {
       border-radius: 10px;
       text-align: center;
       line-height: 50px;
+
       h1 {
         font-size: 20px;
         font-family: 'Songti SC', 'STSong', 'PMingLiU', serif;
         font-weight: 700;
       }
     }
+
     .category-box:nth-child(4) {
       margin-right: 0;
     }
+
     .long-category-box {
       margin-top: 12px;
       width: 171px;
@@ -276,12 +296,14 @@ const goodsLoadingFn = () => {
       border-radius: 10px;
       text-align: center;
       line-height: 50px;
+
       h1 {
         font-size: 20px;
         font-family: 'Songti SC', 'STSong', 'PMingLiU', serif;
         font-weight: 700;
       }
     }
+
     .long-category-box:nth-child(5) {
       margin-right: 10px;
     }
@@ -293,6 +315,7 @@ const goodsLoadingFn = () => {
     flex-wrap: wrap;
     gap: 10px;
   }
+
   .proBoxSkeleton {
     margin: 10px 12.5px 10px;
   }

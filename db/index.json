@@ -1,5 +1,15 @@
 {
   "user": [
+    {
+      "id": "0e33",
+      "username": "lucky",
+      "password": "12121212",
+      "realaddress": "",
+      "realname": "",
+      "realphone": "",
+      "init": true,
+      "express": false
+    }
   ],
   "goods": [
     {
@@ -132,10 +142,24 @@
     }
   ],
   "order": [
+    {
+      "id": "0e33",
+      "AllOrder": []
+    }
   ],
   "cart": [
+    {
+      "id": "0e33",
+      "cart": []
+    }
   ],
   "historySearch": [
+    {
+      "id": "0e33",
+      "goodsName": [
+        "毛"
+      ]
+    }
   ],
   "swiperImages": [
     {

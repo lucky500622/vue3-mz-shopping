@@ -25,7 +25,6 @@ export const goodsGetService = () => {
   if (promise) {
     return promise
   }
-  console.log()
   // 存异步获取商品数据的promise
   const defaultCachePromise = request
     .get('/goods')
