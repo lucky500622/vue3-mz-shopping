@@ -21,6 +21,7 @@ import { swiperGetService } from '@/api/swiper'
 const sweiperImg = ref([])
 // 获取轮播图数据
 onActivated(async () => {
+  if (sweiperImg.value.length !== 0) return
   const { data } = await swiperGetService()
   sweiperImg.value = data[0].imageUrl
 })
@@ -38,6 +39,7 @@ import { goodsGetService } from '@/api/goods'
 const allGoodsList = ref([])
 // 取出loadingNum条作为渲染数据
 onActivated(async () => {
+  if (allGoodsList.value.length !== 0) return
   const { data } = await goodsGetService()
   allGoodsList.value = data
   GoodsListPush(goodsIndex, goodsIndex + loadingNum)
@@ -79,7 +81,7 @@ onActivated(() => {
 })
 
 // 定义一次加载的数量
-const loadingNum = 10
+const loadingNum = 2
 // 上拉加载锁
 let loadMoreConfig = false
 // 加载死锁
