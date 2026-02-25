@@ -65,12 +65,13 @@ const homeScroll = (e) => {
   // 计算距离底部的可滑动距离
   distanceToBottom =
     e.target.scrollHeight - (e.target.clientHeight + e.target.scrollTop)
+  // 正在刷新return
+  if (lock) return
+  if (loadMoreConfig) return
   // 距离小于10px时，触发加载函数
   if (distanceToBottom < 10) {
     goodsLoadingFn()
   }
-  // 刷新dom后，解开刷新锁
-  nextTick(() => (loadMoreConfig = false))
 }
 
 // 绑定下滑容器
@@ -81,7 +82,7 @@ onActivated(() => {
 })
 
 // 定义一次加载的数量
-const loadingNum = 2
+const loadingNum = 6
 // 上拉加载锁
 let loadMoreConfig = false
 // 加载死锁
@@ -99,9 +100,6 @@ const GoodsListPush = (preIndex, nextIndex) => {
 
 // 滚动触底商品加载函数
 const goodsLoadingFn = () => {
-  // 正在刷新return
-  if (lock) return
-  if (loadMoreConfig) return
   // 置刷新锁为启用状态
   loadMoreConfig = true
   // 更新索引值，每次loadingNum条
@@ -119,6 +117,8 @@ const goodsLoadingFn = () => {
   else {
     GoodsListPush(goodsIndex, goodsIndex + loadingNum)
   }
+  // 刷新dom后，解开刷新锁
+  nextTick(() => (loadMoreConfig = false))
 }
 </script>
 

@@ -4,11 +4,11 @@
       "id": "0e33",
       "username": "lucky",
       "password": "12121212",
-      "realaddress": "",
-      "realname": "",
-      "realphone": "",
+      "realaddress": "广东省广州市海珠199号",
+      "realname": "李佳颖",
+      "realphone": "18318859136",
       "init": true,
-      "express": false
+      "express": true
     }
   ],
   "goods": [
@@ -150,13 +150,40 @@
   "cart": [
     {
       "id": "0e33",
-      "cart": []
+      "cart": [
+        {
+          "id": "100003",
+          "name": "纯棉亲肤速干洗脸毛巾",
+          "price": 25,
+          "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E6%97%A5%E7%94%A8/%E6%AF%9B%E5%B7%BE.png",
+          "count": 1,
+          "isChecked": true
+        },
+        {
+          "id": "100001",
+          "name": "保暖加绒包头毛毛拖",
+          "price": 24,
+          "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E9%9E%8B%E5%AD%90/%E6%AF%9B%E6%8B%96%E9%9E%8B%E5%A5%B3.png",
+          "count": 1,
+          "isChecked": true
+        },
+        {
+          "id": "100002",
+          "name": "日本进口无涂层铁锅",
+          "price": 188,
+          "imgUrl": "https://mz-shopping-1398361979.cos.ap-guangzhou.myqcloud.com/%E5%8E%A8%E6%88%BF%E7%94%A8%E5%85%B7/%E6%97%A5%E6%9C%AC%E9%94%85.png",
+          "count": 1,
+          "isChecked": true
+        }
+      ]
     }
   ],
   "historySearch": [
     {
       "id": "0e33",
       "goodsName": [
+        "手机",
+        "毛巾",
         "毛"
       ]
     }
